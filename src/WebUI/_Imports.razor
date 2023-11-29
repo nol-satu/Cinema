@@ -7,5 +7,11 @@
 @using Microsoft.AspNetCore.Components.Web.Virtualization
 @using Microsoft.JSInterop
 @using WebUI
-@using WebUI.Shared
+@using WebUI.Layouts
 @using WebUI.Common.Components
+@using MudBlazor
+@using MediatR
+
+@inject ISender _sender
+@inject NavigationManager _navigationManager
+@inject ISnackbar _snackbar

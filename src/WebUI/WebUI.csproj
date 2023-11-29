@@ -11,9 +11,13 @@
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
+		<PackageReference Include="MudBlazor" Version="6.11.1" />
 	</ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\Logic\Logic.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="NewFolder\" />
 	</ItemGroup>
 
 </Project>
